@@ -1,0 +1,29 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.083);
+    box-shadow: 2px 0px 4px 3px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  
+   padding: 0;
+  }
+  
+  .logo-img-navbar {
+    width: 59px;
+    height: auto;
+  }
+  
+  .nav-link {
+    color: #fff2dc;
+    margin: 0px 0px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+    padding: 30px 30px;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+  }
+  
+  a.nav-link:hover {
+    transform: scale(1.10);
+    border-bottom: 3px solid white;
+  }
