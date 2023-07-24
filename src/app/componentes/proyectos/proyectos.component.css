@@ -20,8 +20,9 @@
 }
 
 h5 {
-    color:rgba(236, 84, 29, 0.776);
+    color:coral;
     text-align: center;
+    font-weight: 600;
     font-size: 2rem;
 }
 
@@ -83,12 +84,12 @@ h6 {
     letter-spacing: 2px;
     margin-right: 1rem;
 
-    border: 2px solid rgb(0, 204, 255);
+    border: 2px solid coral;
     transition: all 0.2s linear;
 
 }
 
 .btn:hover {
     color: white;
-    background-color: rgba(18, 168, 206, 0.77);
+    background-color: rgba(255, 127, 80, 0.734);
 }

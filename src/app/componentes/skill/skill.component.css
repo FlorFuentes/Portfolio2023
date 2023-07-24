@@ -8,9 +8,11 @@
 }
 
 h4 {
-    color:rgba(236, 84, 29, 0.776);
+
+    color:coral;
     text-align: center;
     margin: 40px;
+    font-weight: 600;
     font-size: 2rem;
 }
 

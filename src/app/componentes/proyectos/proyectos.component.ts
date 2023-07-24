@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { DatosPortfolioService } from 'src/app/services/datos-portfolio.service';
 
 @Component({
@@ -9,7 +10,7 @@ import { DatosPortfolioService } from 'src/app/services/datos-portfolio.service'
 export class ProyectosComponent {
   proyec:any;
   proyecLista:any;
-  constructor( private datosProyec:DatosPortfolioService){}
+  constructor( private router:Router,private datosProyec:DatosPortfolioService){}
 
   ngOnInit(): void{
     this.datosProyec.obtenerDatos().subscribe(data =>{

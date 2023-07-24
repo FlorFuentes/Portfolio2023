@@ -32,11 +32,12 @@ section {
     text-align: center;
 }
 .titulo{
-    color:rgba(236, 84, 29, 0.776);
+    color:coral;
     font-size: 2rem;
+    font-weight: 600;
 }
 h3 {
-
+    color:coral;
     font-size: 2rem;
 }
 
@@ -45,6 +46,7 @@ p {
 }
 
 .conoceme {
+
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -63,7 +65,7 @@ p {
 .cv a {
     padding: 3px 10px 5px 10px;
     background-color: white;
-    border: 2px solid rgba(229, 74, 17, 0.619);
+    border: 2px solid coral;
     border-radius: 4px;
     color: black;
     font-size: 1.5em;
@@ -76,5 +78,5 @@ p {
 
 .cv a:hover {
     color: white;
-    background-color:rgba(236, 84, 29, 0.776);
+    background-color:rgba(255, 127, 80, 0.734);
 }
