@@ -1,0 +1,92 @@
+footer {
+    background-image: var(--img_fondo);
+  
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+  
+    min-height: 45vh;
+    width: 100%;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .texto {
+    font-family: Times New Roman, Times, serif;
+  
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  /*MOVIMIENTO ICONOS CUANDO PASO EL MOUSE */
+  .fa-brands.fa-github:hover {
+    --bs-text-opacity: 100%;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+  }
+  
+  .fa-brands.fa-telegram:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+  }
+  
+  .fa-brands.fa-linkedin:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+  }
+  
+  .fa-solid.fa-envelope:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+  }
+  
+  .fa-brands.fa-whatsapp:hover {
+    --bs-text-opacity: 1;
+    transform: scale(1.3, 1.3);
+    transition: all 0.5s ease;
+  }
+  
+  /* Iconos */
+  a.nav-link {
+    padding: 10px 20px;
+  }
+  
+  i.fa-brands {
+    font-size: 23px;
+  }
+  
+  i.fa-solid {
+    font-size: 23px;
+  }
+  
+  /* Boton volver arriba */
+  .boton-up {
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+  }
+  
+  .fa-regular.fa-circle-up {
+    margin: 5px;
+    min-height: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .boton-up a {
+    text-decoration: none;
+  }
+  
+  /* Derechos */
+  .disclaimer {
+    padding: 20px;
+    color: white;
+    font-family: auto;
+  }

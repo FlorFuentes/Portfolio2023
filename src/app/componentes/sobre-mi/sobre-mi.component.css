@@ -31,7 +31,10 @@ section {
     height: auto;
     text-align: center;
 }
-
+.titulo{
+    color:rgba(236, 84, 29, 0.776);
+    font-size: 2rem;
+}
 h3 {
 
     font-size: 2rem;
@@ -60,7 +63,7 @@ p {
 .cv a {
     padding: 3px 10px 5px 10px;
     background-color: white;
-    border: 2px solid rgb(0, 204, 255);
+    border: 2px solid rgba(229, 74, 17, 0.619);
     border-radius: 4px;
     color: black;
     font-size: 1.5em;
@@ -73,5 +76,5 @@ p {
 
 .cv a:hover {
     color: white;
-    background-color: rgba(18, 168, 206, 0.77);
+    background-color:rgba(236, 84, 29, 0.776);
 }

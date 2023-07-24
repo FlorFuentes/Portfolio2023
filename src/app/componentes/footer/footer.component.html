@@ -1,0 +1,27 @@
+<div id="contacto"></div>
+<footer class="footer">
+    <p *ngIf="foo" class="texto">{{foo.footer.texto}}</p>
+
+    <div class="redes d-flex flex-row flex-wrap align-items-center justify-content-center ">
+        <a *ngIf="foo" class="nav-link" [href]="foo.footer.linkGithub" target="_blank">
+            <i class="fa-brands fa-github text-white"></i>
+        </a>
+        <a *ngIf="foo" class="nav-link" title="Telegram" [href]="foo.footer.linkTelegram" target="_blank">
+            <i class="fa-brands fa-telegram text-white"></i>
+        </a>
+        <a class="nav-link" title="Linkedin" [href]="foo.footer.linkLinkedin" target="_blank">
+            <i class="fa-brands fa-linkedin text-white"></i>
+        </a>
+        <a *ngIf="foo" class="nav-link" title="Email" [href]="foo.footer.linkCorreo" target="_blank">
+            <i class="fa-solid fa-envelope text-white"></i>
+        </a>
+
+        <a class="nav-link" title="Email" [href]="foo.footer.linkWhatss" target="_blank">
+            <i class="fa-brands fa-whatsapp text-white"></i>
+        </a>
+    </div>
+    <div class="boton-up">
+        <a title="Volver al inicio" (click)="toContacto()"> <i class="fa-regular fa-circle-up text-white fa-2x"></i></a>
+    </div>
+    <p *ngIf="foo" class="disclaimer">{{foo.footer.disclaimer}}</p>
+</footer>

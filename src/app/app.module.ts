@@ -8,12 +8,18 @@ import { BannerComponent } from './componentes/banner/banner.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
+import { SkillComponent } from './componentes/skill/skill.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     BannerComponent,
-    SobreMiComponent
+    SobreMiComponent,
+    SkillComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

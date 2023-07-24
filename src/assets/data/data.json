@@ -59,8 +59,8 @@
                 "descri1": "Power Eco es un sitio web dedicado a los autos eléctricos y su impacto positivo en el medio ambiente. El proyecto se ha desarrollado en grupo, donde cada uno tenia diferentes tareas en la pagina. En él utilizamos HTML, CSS, JavaScript, Bootstrap, Python, MySQL y Flask",
                 "descri2": "Lo más destacado de este proyecto es la creación de una API personalizada utilizando Python Flask. Esta API permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en la base de datos de modelos de autos eléctricos. Los usuarios pueden agregar nuevos modelos, editar la información existente o eliminar modelos que ya no sean relevantes.",
                 "descri3": "El sitio es un ejemplo del trabajo en equipo de unos desarrolladores, donde pudieron plasmar todo lo aprendido en el curso",
-                "urlGithub": "https://julianmanrike.github.io/frontend/",
-                "urlDeploy": "https://github.com/julianmanrike/frontend"
+                "urlGithub": "https://github.com/julianmanrike/frontend",
+                "urlDeploy": "https://julianmanrike.github.io/frontend/"
             },
             {
                 "nombre": "Portfolio",
