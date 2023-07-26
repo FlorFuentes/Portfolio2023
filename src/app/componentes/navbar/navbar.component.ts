@@ -24,7 +24,6 @@ export class NavbarComponent {
    }
 
    //cambio color navbar
-   // To change the background color of the navbar on click
   isNavbarBlack: boolean = false;
 
   @HostListener('window:scroll', ['$event'])
