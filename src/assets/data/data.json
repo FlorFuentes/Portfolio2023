@@ -49,7 +49,7 @@
                 "nombre": "Cafeteria",
                 "img": "../../../assets/img/lap_cafeteria.png",
                 "descri1": "La cafetería es un sitio web sencillo y encantador. En él se utilizo HTML, CSS y un poco de JavaScript.",
-                "descri2": "Los usuarios pueden navegar por la pagina donde encontraran diferentes secciones: mejores categorias, mejores productos, una galeria de fotos, comentarios de clientes y un pie de pagina donde estan nuestras sucursales ",
+                "descri2": "Los usuarios pueden navegar por la pagina donde encontraran diferentes secciones: mejores categorias, mejores productos, una galeria de fotos, comentarios de clientes y un pie de pagina donde se encuentran las sucursales ",
                 "urlGithub": "https://github.com/FlorFuentes/Proyecto_Final_BA",
                 "urlDeploy": "https://famous-croquembouche-9cfeba.netlify.app/"
             },
