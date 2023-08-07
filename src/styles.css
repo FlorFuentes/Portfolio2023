@@ -6,15 +6,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
     width: 100vw;
-    max-width: 100%;
-  
+    max-width: 100%;  
     font-family: 'Bacasime Antique', serif;
-    /*font-family: 'Poppins', sans-serif;  */
-  
   }
-  
+
   html {
     scroll-behavior: smooth;
   }

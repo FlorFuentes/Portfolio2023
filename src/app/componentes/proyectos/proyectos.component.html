@@ -1,5 +1,4 @@
-<div id="proyectos"></div>
-<section class="proyec">
+<section class="proyec" id="proyectos">
     <div class="container">
         <div class="titulo col-12">
             <h5 *ngIf="proyec">{{proyec.proyectos.titulo}}</h5>
@@ -8,7 +7,7 @@
         <div class="proyectos">
             <div *ngFor="let proyect of proyecLista" class="proye row ">
 
-                <div class="col-12 col-md-6">
+                <div class="sobre col-12 col-md-6">
                     <img class="proyImg" [src]="proyect.img" alt="colorGame">
                 </div>
                 <div class="descriProyec col-12 col-md-6">
