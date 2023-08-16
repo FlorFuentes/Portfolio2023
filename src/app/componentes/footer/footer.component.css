@@ -90,3 +90,18 @@ footer {
     color: white;
     font-family: auto;
   }
+
+  @media screen and (max-width:350px){
+    a.nav-link {
+      padding: 5px 10px;
+    }
+    .texto{
+      font-size: 1.5rem;
+    }
+    .boton-up a{
+      font-size: 0.8rem;
+    }
+    .disclaimer{
+      font-size: 0.8rem;
+    }
+  }
