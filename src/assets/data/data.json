@@ -19,7 +19,7 @@
     },
     "proyectos": {
         "titulo": "PROYECTOS",
-        "descripcion": "¡Aqui encontraras algunos de los proyectos que fui construyendo!",
+        "descripcion": "¡Aquí encontrarás algunos de los proyectos que fui construyendo!",
         "proyecto": [
             {
                 "nombre": "Color Game",
@@ -32,8 +32,8 @@
             {
                 "nombre": "To Do List",
                 "img": "../../../assets/img/lap_todolist.png",
-                "descri1": "To-Do List es una página interactiva que permite a los usuarios agregar y gestionar sus tareas pendientes de manera efectiva.Pueden crear una lista personalizada de tareas por hacer",
-                "descri2": "La pagina cuenta con un candado,que si la tarea esta desbloqueada se puede editar, sino no. Y con un tachito para poder eliminar la tarea pendiente.",
+                "descri1": "To-Do List es una página interactiva que permite a los usuarios agregar y gestionar sus tareas pendientes de manera efectiva. Pueden crear una lista personalizada de tareas por hacer.",
+                "descri2": "La página cuenta con un candado,que si la tarea está desbloqueada se puede editar, de lo contrario,no. También tiene un ícono de tachito para poder eliminar la tarea pendiente.",
                 "urlGithub": "https://github.com/FlorFuentes/To_Do_List",
                 "urlDeploy": "https://silly-gecko-9fd65b.netlify.app/"
             },
@@ -41,24 +41,24 @@
                 "nombre": "Weather Channel",
                 "img": "../../../assets/img/lap_weather.png",
                 "descri1": "El proyecto del Weather Channel es una página web que muestra las condiciones meteorológicas actuales de diversas ciudades. La página interactúa con la API del Weather Channel para obtener datos precisos y actualizados sobre el clima de cada ubicación.",
-                "descri2": "Los usuarios pueden ingresar el nombre de la ciudad que deseen consultar, y la página mostrará información relevante, como la temperatura actual en Celsius (°C) , el estado del cielo, y descripción del clima actual",
+                "descri2": "Los usuarios pueden ingresar el nombre de la ciudad que deseen consultar, y la página mostrará información relevante, como la temperatura actual en Celsius (°C) , el estado del cielo, y descripción del clima actual.",
                 "urlGithub": "https://github.com/FlorFuentes/Weather_Channel",
                 "urlDeploy": "https://superlative-queijadas-b0b14b.netlify.app/"
             },
             {
-                "nombre": "Cafeteria",
+                "nombre": "Cafetería",
                 "img": "../../../assets/img/lap_cafeteria.png",
-                "descri1": "La cafetería es un sitio web sencillo y encantador. En él se utilizo HTML, CSS y un poco de JavaScript.",
-                "descri2": "Los usuarios pueden navegar por la pagina donde encontraran diferentes secciones: mejores categorias, mejores productos, una galeria de fotos, comentarios de clientes y un pie de pagina donde se encuentran las sucursales ",
+                "descri1": "La cafetería es un sitio web sencillo y encantador. En él se utilizó HTML, CSS y un poco de JavaScript.",
+                "descri2": "Los usuarios pueden navegar por la pagina donde encontrarán diferentes secciones: mejores categorías, mejores productos, una galería de fotos, comentarios de clientes y un pie de página donde se encuentran las sucursales. ",
                 "urlGithub": "https://github.com/FlorFuentes/Proyecto_Final_BA",
                 "urlDeploy": "https://famous-croquembouche-9cfeba.netlify.app/"
             },
             {
                 "nombre": "Power Eco",
                 "img": "../../../assets/img/lap_powerEco.png",
-                "descri1": "Power Eco es un sitio web dedicado a los autos eléctricos y su impacto positivo en el medio ambiente. El proyecto se ha desarrollado en grupo, donde cada uno tenia diferentes tareas en la pagina. En él utilizamos HTML, CSS, JavaScript, Bootstrap, Python, MySQL y Flask",
+                "descri1": "Power Eco es un sitio web dedicado a los autos eléctricos y su impacto positivo en el medio ambiente. El proyecto se ha desarrollado en grupo, donde cada uno de nosotros tenía diferentes responsabilidades en la página. En él utilizamos HTML, CSS, JavaScript, Bootstrap, Python, MySQL y Flask",
                 "descri2": "Lo más destacado de este proyecto es la creación de una API personalizada utilizando Python Flask. Esta API permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en la base de datos de modelos de autos eléctricos. Los usuarios pueden agregar nuevos modelos, editar la información existente o eliminar modelos que ya no sean relevantes.",
-                "descri3": "El sitio es un ejemplo del trabajo en equipo de unos desarrolladores, donde pudieron plasmar todo lo aprendido en el curso",
+                "descri3": "El sitio es un ejemplo del trabajo en equipo de nuestro grupo de desarrolladores, donde logramos plasmar todo lo aprendido en el curso.",
                 "urlGithub": "https://github.com/julianmanrike/frontend",
                 "urlDeploy": "https://julianmanrike.github.io/frontend/"
             },
