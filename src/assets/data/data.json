@@ -70,6 +70,15 @@
                 "descri3": "Una de las características más destacadas de mi portfolio es la integración de una base de datos MySQL y un backend desarrollado en Java y Spring Boot. Esto permite a los usuarios acceder al sitio con sus credenciales, lo que les da la capacidad de realizar un CRUD completo en su propia información de portfolio.",
                 "urlGithub": "https://github.com/FlorFuentes/Portfolio_FrontEnd/tree/angular",
                 "urlDeploy": "https://portfolio-argprograma-6ed7c.web.app/inicio"
+            },
+            {
+                "nombre": "Planazo",
+                "img": "../../../assets/img/lap_planazo.png",
+                "descri1": "Es un proyecto colaborativo desarrollado en equipo, donde nos propusimos crear una aplicación web en React.js. Esta plataforma permite a los usuarios construir y gestionar listas personalizadas de destinos favoritos.",
+                "descri2": "El propósito principal de Planazo fue proporcionar a los usuarios una herramienta intuitiva y atractiva para seleccionar y organizar destinos favoritos. La aplicación, destinada exclusivamente a usuarios registrados, sienta las bases para la futura planificación detallada de viajes.",
+                "descri3": "",
+                "urlGithub": "https://github.com/JorgeEiras/23644-grupo6-planazo",
+                "urlDeploy": "https://23644-grupo6-planazo.vercel.app/"
             }
         ]
     },
