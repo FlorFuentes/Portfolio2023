@@ -1,7 +1,7 @@
 :root {
     --img_fondo: url("assets/img/fondo.jpg")
   }
-  
+ 
   body {
     margin: 0;
     padding: 0;
@@ -12,12 +12,14 @@
   }
 
   html {
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
   }
   
-  section {
+ /*  section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  } */

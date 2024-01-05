@@ -1,5 +1,5 @@
-<div id="sobreMi"></div>
-<section class="acer" >
+<!-- <div id="sobreMi"></div> -->
+<section id="sobreMi" class="acer">
   <div class="container a.s">
     <div class="sobre-mi">
       <h3 *ngIf="sMi" class="titulo">{{sMi.sobreMi.titulo}}</h3>
@@ -10,7 +10,7 @@
         <h3 *ngIf="sMi">{{sMi.sobreMi.conoceme}}</h3>
         <p *ngIf="sMi">{{sMi.sobreMi.sobre1}}</p>
         <p *ngIf="sMi">{{sMi.sobreMi.sobre2}}</p>
-        
+
       </div>
       <div *ngIf="sMi" class="cv col-md">
         <a download="FlorenciaFuentes" href="../../../assets/pdf/Curriculum Vitae.pdf">{{sMi.sobreMi.descargarCv}}</a>

@@ -3,7 +3,23 @@ section {
   max-width: 100%;
   min-height: 100vh;
   position: relative;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.container {
+  min-height: 40vh;
+  max-height: 94vh;
+  min-width: 70vw;
+  max-width: 80vw;
+  
+}
+
+
 
 .banner {
   position: absolute;
@@ -70,10 +86,11 @@ section {
 .FotoD {
   width: 100%;
   font-size: 1rem;
-  margin-left: 5%;
+  
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
+  padding:0 10px;
+}  
 
 .FotoD a {
   text-decoration: none;
@@ -83,6 +100,7 @@ section {
 .FotoD a:hover {
   text-decoration: none;
 }
+
 /* ****************************************MEDIA QUERY**************************************** */
 /* laptop */
 
@@ -95,7 +113,7 @@ section {
     font-size: 2.5rem;
   }
 }
- 
+
 
 /* tablet */
 
@@ -106,19 +124,20 @@ section {
 
   .descripcion {
     font-size: 2rem;
-    }
-  
+  }
+
 
   .btn {
     font-size: 1.5rem;
   }
-  .fotoD{
+
+  .fotoD {
     font-size: 0.5rem;
 
-  } 
+  }
 }
- 
- /* smartphone */
+
+/* smartphone */
 
 @media screen and (max-width: 767px) {
   .nombre {
@@ -132,8 +151,8 @@ section {
   .btn {
     font-size: 1.5rem;
   }
-  .fotoD{
+
+  .fotoD {
     font-size: 0.3rem;
-  } 
+  }
 }
- 
