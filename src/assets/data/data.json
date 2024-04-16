@@ -78,7 +78,7 @@
                 "descri1": "To-Do List es una página interactiva que permite a los usuarios agregar y gestionar sus tareas pendientes de manera efectiva. Pueden crear una lista personalizada de tareas por hacer.",
                 "descri2": "La página cuenta con un candado,que si la tarea está desbloqueada se puede editar, de lo contrario,no. También tiene un ícono de tachito para poder eliminar la tarea pendiente.",
                 "urlGithub": "https://github.com/FlorFuentes/To_Do_List",
-                "urlDeploy": "https://silly-gecko-9fd65b.netlify.app/"
+                "urlDeploy": "https://florfuentes.github.io/To_Do_List/"
             },
             {
                 "nombre": "Color Game",
@@ -86,7 +86,7 @@
                 "descri1": "El Color Game es un emocionante juego de adivinanzas en el que el usuario pondrá a prueba sus habilidades para identificar colores a partir de su código RGB. El objetivo del juego es sencillo: el programa mostrará un código RGB, que representa un color específico en el espacio de color RGB (Rojo, Verde, Azul). El usuario deberá adivinar cuál es el color correcto entre las opciones presentadas.",
                 "descri2": "El juego tiene dos niveles de dificultad. El nivel fácil presenta 3 opciones de colores posibles, mientras que el nivel difícil aumenta el reto con 6 opciones diferentes. El usuario puede seleccionar el nivel con el que se sienta más cómodo.",
                 "urlGithub": "https://github.com/FlorFuentes/Color_Game",
-                "urlDeploy": "https://graceful-malasada-201f0b.netlify.app/"
+                "urlDeploy": "https://6619a514eef1b900a034d1d0--silly-crepe-323d14.netlify.app/"
             }
         ]
     },
