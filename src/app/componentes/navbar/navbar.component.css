@@ -20,7 +20,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
   letter-spacing: 2px;
-  font-variant: small-caps;
+  font-variant:all-petite-caps;
 }
 
 a.nav-link:hover {

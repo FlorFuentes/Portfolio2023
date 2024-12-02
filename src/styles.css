@@ -1,5 +1,6 @@
 :root {
     --img_fondo: url("assets/img/fondo.jpg")
+
   }
  
   body {
@@ -8,7 +9,8 @@
     box-sizing: border-box;
     width: 100vw;
     max-width: 100%;  
-    font-family: 'Bacasime Antique', serif;
+    /* font-family: 'Bacasime Antique', serif; */
+    font-family: "Roboto", Sans-serif;
   }
 
   html {

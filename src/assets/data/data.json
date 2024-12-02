@@ -3,8 +3,8 @@
         "logo-img-navbar": "../../../assets/img/Logo_Mio.png"
     },
     "banner": {
-        "nombre": "Hola, soy Florencia Fuentes",
-        "descripcion": "Desarrolladora Web Full Stack Jr "
+        "nombre": "Florencia Fuentes",
+        "descripcion": "Desarrolladora Web"
     },
     "sobreMi": {
         "titulo": "SOBRE MI",
@@ -18,7 +18,7 @@
         "misHabi": "MIS HABILIDADES"
     },
     "proyectos": {
-        "titulo": "PROYECTOS",
+        "titulo": "TRABAJOS REALIZADOS",
         "descripcion": "¡Aquí encontrarás algunos de los proyectos que fui construyendo!",
         "proyecto": [
             {
