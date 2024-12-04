@@ -10,8 +10,7 @@
         "titulo": "SOBRE MI",
         "descripcion": "Aquí encontrará más información, lo que hago y mis habilidades actuales",
         "conoceme": "CONOCEME",
-        "sobre1": "¡Hola! Soy Florencia Fuentes, desarrolladora web Full Stack. Desde joven, las computadoras han despertado mi curiosidad y siempre he tenido un gran interés en aprender a programar. Fue en el año 2021 cuando decidí sumergirme de lleno en este fascinante mundo de la programación.",
-        "sobre2": "Poco a poco, me aventuré en cursos especializados que me permitieron aprender a desarrollar sitios web. Dominé lenguajes como HTML, CSS y JavaScript, y adquirí conocimientos en el uso de frameworks como Angular. ",
+        "sobre1": "¡Hola! Soy Florencia Fuentes, Desarrolladora Web Front End y Co-Fundadora de RF Web Design. Desde 2021, me dedico a crear sitios web funcionales y atractivos, utilizando tecnologías como HTML, CSS, JavaScript, WordPress y Elementor. Con una filosofía basada en la colaboración y el aprendizaje continuo, mi objetivo es transformar ideas en experiencias digitales que destaquen.",
         "descargarCv": "Descargar Cv"
     },
     "habilidades": {
@@ -22,81 +21,65 @@
         "descripcion": "¡Aquí encontrarás algunos de los proyectos que fui construyendo!",
         "proyecto": [
             {
+                "nombre": "Consultora SEHGG",
+                "img": "../../../assets/img/Sehgg.webp",
+                "descri1": "Consultora de Seguridad e Higiene industrial. Single page realizada con WordPress y Elementor - 2024.",
+                "urlDeploy": "https://sehgg.com.ar/"
+            },
+            {
+                "nombre": "RF Web Design",
+                "img": "../../../assets/img/RFWebDesign.webp",
+                "descri1": "Agencia de diseño y desarrollo de sitios web. Web corporativa realizada con WordPress y Elementor - 2024.",
+                "urlDeploy": "https://rfwebdesign.com.ar/"
+            },
+            {
                 "nombre": "Las Peonias",
-                "img": "../../../assets/img/lap_Peonias.png",
-                "descri1": "En mi reciente proyecto con FooTalent Group, lideré el desarrollo de un sitio web elegante y funcional para una empresa de cosméticos, participando en el proyecto desde la investigación inicial hasta su implementación final.",
-                "descri2": "Estuve a cargo de la conceptualización de la página, el diseño UX/UI, y colaboré estrechamente en el diseño visual, garantizando la atracción efectiva de la audiencia objetivo.",
-                "descri3":"Participé activamente en los dailys cada mañana, lo que facilitó una comunicación y colaboración constante en el equipo para el avance del proyecto.",
-                "urlGithub": "https://github.com/FlorFuentes",
+                "img": "../../../assets/img/LasPeonias3.png",
+                "descri1": "Empresa de cosméticos. Single page realizada con Angular. Diseño moderno y funcional - 2024",
                 "urlDeploy": "https://las-peonias.vercel.app/"
             },
             {
-                "nombre": "Planazo",
-                "img": "../../../assets/img/lap_planazo.png",
-                "descri1": "Es un proyecto colaborativo desarrollado en equipo, donde nos propusimos crear una aplicación web en React.js. Esta plataforma permite a los usuarios construir y gestionar listas personalizadas de destinos favoritos.",
-                "descri2": "El propósito principal de Planazo fue proporcionar a los usuarios una herramienta intuitiva y atractiva para seleccionar y organizar destinos favoritos. La aplicación, destinada exclusivamente a usuarios registrados, sienta las bases para la futura planificación detallada de viajes.",
-                "urlGithub": "https://github.com/JorgeEiras/23644-grupo6-planazo",
-                "urlDeploy": "https://23644-grupo6-planazo.vercel.app/"
+                "nombre": "Portfolio Personal",
+                "img": "../../../assets/img/ImgDestacada.png",
+                "descri1": "Portfolio personal tipo Single page. Realizado con Angular 16.1. Google Analytics- 2024",
+                "urlDeploy": "https://florencia-fuentes.web.app/"
             },
             {
                 "nombre": "Portfolio",
-                "img": "../../../assets/img/lap_port.png",
-                "descri1": "Mi portfolio desarrollado en el marco del curso de Argentina Programa 4.0 es una muestra completa de mis habilidades y conocimientos en el desarrollo web y la programación. Utilizando una variedad de tecnologías, he creado un sitio web interactivo y dinámico.",
-                "descri2": "La página fue construida utilizando HTML, CSS y Bootstrap para lograr un diseño moderno y receptivo que se adapta a diferentes dispositivos. Con Angular, he agregado interactividad y funcionalidad a la interfaz, brindando a los visitantes una experiencia agradable y fluida al navegar por el portfolio.",
-                "descri3": "Una de las características más destacadas de mi portfolio es la integración de una base de datos MySQL y un backend desarrollado en Java y Spring Boot. Esto permite a los usuarios acceder al sitio con sus credenciales, lo que les da la capacidad de realizar un CRUD completo en su propia información de portfolio.",
-                "urlGithub": "https://github.com/FlorFuentes/Portfolio_FrontEnd/tree/angular",
+                "img": "../../../assets/img/portfolioARG.png",
+                "descri1": "Proytecto de Argentina Programa 4.0. Construido con HTML, CSS, Bootstrap, Angular, Java y Spring Boot, base de datos MySQL para funcionalidades CRUD - 2023",
                 "urlDeploy": "https://portfolio-argprograma-6ed7c.web.app/inicio"
             },
             {
-                "nombre": "Power Eco",
-                "img": "../../../assets/img/lap_powerEco.png",
-                "descri1": "Power Eco es un sitio web dedicado a los autos eléctricos y su impacto positivo en el medio ambiente. El proyecto se ha desarrollado en grupo, donde cada uno de nosotros tenía diferentes responsabilidades en la página. En él utilizamos HTML, CSS, JavaScript, Bootstrap, Python, MySQL y Flask",
-                "descri2": "Lo más destacado de este proyecto es la creación de una API personalizada utilizando Python Flask. Esta API permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) en la base de datos de modelos de autos eléctricos. Los usuarios pueden agregar nuevos modelos, editar la información existente o eliminar modelos que ya no sean relevantes.",
-                "descri3": "El sitio es un ejemplo del trabajo en equipo de nuestro grupo de desarrolladores, donde logramos plasmar todo lo aprendido en el curso.",
-                "urlGithub": "https://github.com/julianmanrike/frontend",
-                "urlDeploy": "https://julianmanrike.github.io/frontend/"
-            },
-            {
-                "nombre": "Cafetería",
-                "img": "../../../assets/img/lap_cafeteria.png",
-                "descri1": "La cafetería es un sitio web sencillo y encantador. En él se utilizó HTML, CSS y un poco de JavaScript.",
-                "descri2": "Los usuarios pueden navegar por la pagina donde encontrarán diferentes secciones: mejores categorías, mejores productos, una galería de fotos, comentarios de clientes y un pie de página donde se encuentran las sucursales. ",
-                "urlGithub": "https://github.com/FlorFuentes/Proyecto_Final_BA",
-                "urlDeploy": "https://famous-croquembouche-9cfeba.netlify.app/"
-            },
-            {
-                "nombre": "Weather Channel",
-                "img": "../../../assets/img/lap_weather.png",
-                "descri1": "El proyecto del Weather Channel es una página web que muestra las condiciones meteorológicas actuales de diversas ciudades. La página interactúa con la API del Weather Channel para obtener datos precisos y actualizados sobre el clima de cada ubicación.",
-                "descri2": "Los usuarios pueden ingresar el nombre de la ciudad que deseen consultar, y la página mostrará información relevante, como la temperatura actual en Celsius (°C) , el estado del cielo, y descripción del clima actual.",
-                "urlGithub": "https://github.com/FlorFuentes/Weather_Channel",
-                "urlDeploy": "https://superlative-queijadas-b0b14b.netlify.app/"
-            },
-            {
-                "nombre": "To Do List",
-                "img": "../../../assets/img/lap_todolist.png",
-                "descri1": "To-Do List es una página interactiva que permite a los usuarios agregar y gestionar sus tareas pendientes de manera efectiva. Pueden crear una lista personalizada de tareas por hacer.",
-                "descri2": "La página cuenta con un candado,que si la tarea está desbloqueada se puede editar, de lo contrario,no. También tiene un ícono de tachito para poder eliminar la tarea pendiente.",
-                "urlGithub": "https://github.com/FlorFuentes/To_Do_List",
-                "urlDeploy": "https://florfuentes.github.io/To_Do_List/"
-            },
-            {
                 "nombre": "Color Game",
-                "img": "../../../assets/img/lap_colorGame.png",
-                "descri1": "El Color Game es un emocionante juego de adivinanzas en el que el usuario pondrá a prueba sus habilidades para identificar colores a partir de su código RGB. El objetivo del juego es sencillo: el programa mostrará un código RGB, que representa un color específico en el espacio de color RGB (Rojo, Verde, Azul). El usuario deberá adivinar cuál es el color correcto entre las opciones presentadas.",
-                "descri2": "El juego tiene dos niveles de dificultad. El nivel fácil presenta 3 opciones de colores posibles, mientras que el nivel difícil aumenta el reto con 6 opciones diferentes. El usuario puede seleccionar el nivel con el que se sienta más cómodo.",
-                "urlGithub": "https://github.com/FlorFuentes/Color_Game",
+                "img": "../../../assets/img/ColorGame.png",
+                "descri1": "Un juego de adivinanzas para identificar colores a partir de su código RGB. Incluye dos niveles de dificultad: fácil (3 opciones) y difícil (6 opciones).",
                 "urlDeploy": "https://6619a514eef1b900a034d1d0--silly-crepe-323d14.netlify.app/"
             }
         ]
     },
-    "footer": {
-        "texto": "¡Para contactarte conmigo podes seguirme en las redes!",
-        "linkGithub": "https://github.com/FlorFuentes",
-        "linkLinkedin": "https://www.linkedin.com/in/florencia-fuentes-52b841263",
-        "linkTelegram": "https://t.me/Flor_Fuentes_12",
-        "linkCorreo": "mailto: flopy_200412@hotmail.com",
-        "linkWhatss": "https://wa.me/+5492944206530",
-        "disclaimer": "Sitio creado por Florencia Fuentes 2023 ©"
-    }
-}
+    
+    
+        "footer": {
+          "links": [
+            { "name": "Inicio","url": "#inicio" },
+            { "name": "Sobre mí", "url": "#sobre-mi" },
+            { "name": "Trabajos", "url": "#trabajos" },
+            { "name": "Contacto", "url": "#contacto" }
+          ],
+          "contacto": [
+            { "name": "flopy_200412@outlook.com", "icon": "fa-regular fa-envelope", "url": "mailto:flopy_200412@outlook.com" },
+            { "name": "@flor.fuentes.12", "icon": "fa-instagram", "url": "https://www.instagram.com/flor.fuentes.12/" },
+            { "name": "LinkedIn", "icon": "fa-linkedin", "url": "www.linkedin.com/in/florencia-fuentes-52b841263" },
+            { "name": "WhatsApp", "icon": "fa-whatsapp", "url": "https://wa.me/2944206530" }
+          ],
+          "trabajos": [
+            { "name": "Consultora SEHGG", "url": "https://sehgg.com.ar/" },
+            { "name": "RF Web Design", "url": "https://rfwebdesign.com.ar/" },
+            { "name": "Las Peonias", "url": "https://las-peonias.vercel.app/" },
+            { "name": "Portfolio Personal", "url": "https://florencia-fuentes.web.app/" }
+          ],
+          "disclaimer": "Creado por Florencia Fuentes 2024 - Todos los derechos reservados"
+        }
+      }
+      

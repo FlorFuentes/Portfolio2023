@@ -16,7 +16,7 @@ section {
   max-height: 94vh;
   min-width: 70vw;
   max-width: 80vw;
-  
+  text-align: center;
 }
 
 
@@ -30,11 +30,11 @@ section {
 
   background-image: var(--img_fondo);
 
-  background-color: rgb(50, 50, 50);
-  background-blend-mode: soft-light;
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
@@ -51,18 +51,30 @@ section {
 .nombre {
   font-size: 4rem;
   text-align: center;
-  font-variant: all-petite-caps;
+  font-family: 'Roboto', sans-serif;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+
   /* font-family: Times New Roman, Times, serif; */
 }
 
 .descripcion {
   /* font-family: Times New Roman, Times, serif; */
-  font-size: 2.5rem;
+ 
   text-align: center;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .btn-contacto {
-  margin-top: 5rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
@@ -77,11 +89,17 @@ section {
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  border: 2px solid rgba(255, 255, 255, 0.649);
-
-  padding: 5px 10px 5px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  /* padding: 5px 10px 5px 7px; */
   font-size: 2rem;
-  font-variant: all-small-caps;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
 }
 
 .FotoD {
@@ -96,11 +114,12 @@ section {
 
 .FotoD a {
   text-decoration: none;
-  color: rgb(237, 231, 231);
+  color: rgb(237, 231, 231, 0.9);
 }
 
 .FotoD a:hover {
-  text-decoration: none;
+/*   text-decoration: none; */
+text-decoration: underline;/* hace rayita cuando pasas mouse */
 }
 
 /* ****************************************MEDIA QUERY**************************************** */
@@ -111,9 +130,9 @@ section {
     font-size: 4rem;
   }
 
-  .descripcion {
+ /*  .descripcion {
     font-size: 2.5rem;
-  }
+  } */
 }
 
 
@@ -129,9 +148,9 @@ section {
   }
 
 
-  .btn {
+ /*  .btn {
     font-size: 1.5rem;
-  }
+  } */
 
   .fotoD {
     font-size: 0.5rem;
@@ -155,6 +174,6 @@ section {
   }
 
   .fotoD {
-    font-size: 0.3rem;
+    font-size: 0.7rem;
   }
 }

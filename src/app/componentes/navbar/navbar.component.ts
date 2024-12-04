@@ -61,4 +61,9 @@ export class NavbarComponent {
     document.getElementById("proyectos")?.scrollIntoView({behavior:"smooth"});
    }
 
+   toContacto(){
+    this.router.navigate(['']);
+    document.getElementById("contacto")?.scrollIntoView({behavior:"smooth"});
+   }
+
 }

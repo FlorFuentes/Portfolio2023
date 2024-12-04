@@ -1,4 +1,4 @@
-<div id="contacto"></div>
+<!-- <div id="contacto"></div>
 <footer class="footer">
     <p *ngIf="foo" class="texto">{{foo.footer.texto}}</p>
 
@@ -24,4 +24,88 @@
         <a title="Volver al inicio" (click)="toContacto()"> <i class="fa-regular fa-circle-up text-white fa-2x"></i></a>
     </div>
     <p *ngIf="foo" class="disclaimer">{{foo.footer.disclaimer}}</p>
-</footer>
+</footer> -->
+
+<!-- <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>LINKS ÚTILES</h3>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Trabajos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h3>CONTACTO</h3>
+        <ul>
+          <li><a href="mailto:flopy_200412@outlook.com">flopy_200412.com</a></li>
+          <li><a href="https://www.instagram.com/donsonic9/" target="_blank">flor</a></li>
+          <li><a href="https://www.linkedin.com/in/perfil" target="_blank">Perfil de LinkedIn</a></li>
+          <li><a href="https://wa.me/2944206530" target="_blank">WhatsApp</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h3>TRABAJOS</h3>
+        <ul>
+          <li><a href="#elevar-rh">Elevar RH</a></li>
+          <li><a href="#agencia-doxs">Agencia DOXS</a></li>
+          <li><a href="#ianico">IANICO</a></li>
+          <li><a href="#portfolio">AR (antiguo portfolio)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Creado por Alexander Repollo 2024 - Todos los derechos reservados</p>
+    </div>
+  </footer> -->
+  <div id="contacto"></div>
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- <img src="../../../assets/img/2.png" alt="Logo Florencia Fuentes" class="footer-logo"> -->
+      <!-- Links Útiles -->
+      <div class="footer-section" *ngIf="foo && foo.footer.links">
+        <h3>LINKS ÚTILES</h3>
+        <ul>
+          <li *ngFor="let link of foo.footer.links">
+            <a [href]="link.url">
+              <i class="fa-solid fa-angles-right"></i> {{ link.name }}
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Contacto -->
+      <div class="footer-section" *ngIf="foo && foo.footer.contacto">
+        <h3>CONTACTO</h3>
+        <ul>
+          <li *ngFor="let contact of foo.footer.contacto">
+            <a [href]="contact.url" target="_blank">
+              <i [class]="'fa ' + contact.icon"></i> {{ contact.name }}
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+      <!-- Trabajos -->
+      <div class="footer-section" *ngIf="foo && foo.footer.trabajos">
+        <h3>TRABAJOS</h3>
+        <ul>
+          <li *ngFor="let trabajo of foo.footer.trabajos">
+            <a [href]="trabajo.url">
+              <i class="fa-solid fa-chevron-right"></i> {{ trabajo.name }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Disclaimer -->
+    <div class="footer-bottom" *ngIf="foo && foo.footer.disclaimer">
+      <p>{{ foo.footer.disclaimer }}</p>
+    </div>
+  </footer>
+  

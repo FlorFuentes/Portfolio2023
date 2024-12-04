@@ -1,26 +1,21 @@
 <section class="proyec" id="proyectos">
     <div class="container">
-        <div class="titulo col-12">
-            <h5 *ngIf="proyec">{{proyec.proyectos.titulo}}</h5>
-            <p class="texto" *ngIf="proyec">{{proyec.proyectos.descripcion}}</p>
+        <div class="titulo text-center col-12">
+            <h5 *ngIf="proyec">{{ proyec.proyectos.titulo }}</h5>
+            <p class="texto" *ngIf="proyec">{{ proyec.proyectos.descripcion }}</p>
         </div>
         <div class="proyectos">
-            <div *ngFor="let proyect of proyecLista" class="proye row ">
-
-                <div class="sobre col-12 col-md-6">
-                    <img class="proyImg" [src]="proyect.img" alt="colorGame">
-                </div>
-                <div class="descriProyec col-12 col-md-6">
-                    <h6>{{proyect.nombre}}</h6>
-                    <p class="descri">{{proyect.descri1}}</p>
-                    <p class="descri">{{proyect.descri2}}</p>
-                    <p class="descri">{{proyect.descri3}}</p>
-                    <div class="botones">
-                        <a class="btn" [href]="proyect.urlDeploy" target="_blank">Deploy</a>
-                        <a class="btn" [href]="proyect.urlGithub" target="_blank">GitHub</a>
+            <div *ngFor="let proyect of proyecLista" class="proye">
+                <!-- Card -->
+                <a *ngIf="proyect.urlDeploy" [href]="proyect.urlDeploy" target="_blank" class="card-link">
+                    <div class="card">
+                        <img class="proyImg" [src]="proyect.img" [alt]="proyect.nombre">
+                        <div class="card-body">
+                            <h5 *ngIf="proyect.nombre">{{ proyect.nombre }}</h5>
+                            <p class="card-text" *ngIf="proyect.descri1">{{ proyect.descri1 }}</p>
+                        </div>
                     </div>
-                </div>
-
+                </a>
             </div>
         </div>
     </div>
