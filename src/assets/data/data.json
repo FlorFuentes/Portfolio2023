@@ -10,7 +10,9 @@
         "titulo": "SOBRE MI",
         "descripcion": "Aquí encontrará más información, lo que hago y mis habilidades actuales",
         "conoceme": "CONOCEME",
-        "sobre1": "¡Hola! Soy Florencia Fuentes, Desarrolladora Web Front End y Co-Fundadora de RF Web Design. Desde 2021, me dedico a crear sitios web funcionales y atractivos, utilizando tecnologías como HTML, CSS, JavaScript, WordPress y Elementor. Con una filosofía basada en la colaboración y el aprendizaje continuo, mi objetivo es transformar ideas en experiencias digitales que destaquen.",
+        "sobre1": "¡Hola! Soy Florencia Fuentes, Desarrolladora Web Front End y Co-Fundadora de RF Web Design. Desde 2021, me dedico a crear sitios web funcionales y atractivos, utilizando tecnologías como HTML, CSS, JavaScript, WordPress y Elementor.",
+        "sobre2": "Con una filosofía basada en la colaboración y el aprendizaje continuo, mi objetivo es transformar ideas en experiencias digitales que destaquen.",
+
         "descargarCv": "Descargar Cv"
     },
     "habilidades": {
@@ -18,7 +20,7 @@
     },
     "proyectos": {
         "titulo": "TRABAJOS REALIZADOS",
-        "descripcion": "¡Aquí encontrarás algunos de los proyectos que fui construyendo!",
+        "descripcion": "¡Aquí encontrarás algunos de los trabajos realizados!",
         "proyecto": [
             {
                 "nombre": "Consultora SEHGG",
